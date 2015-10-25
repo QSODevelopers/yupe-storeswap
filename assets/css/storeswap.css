@@ -1,0 +1,79 @@
+.console{
+    padding: 0;
+}
+.console .panel-body{
+    padding:0;
+}
+.progress{
+    border-radius: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+.progress .progress-bar{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.console-body{
+    height: 400px;
+    padding: 20px;
+    overflow-x: hidden;
+}
+.panel-heading{
+    float: left;
+    width: 100%;
+}
+#consoleBundle .label{
+    cursor: pointer;
+}
+.console-body .alert{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition-property: max-height, opacity;
+    -moz-transition-property: max-height, opacity;
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    max-height: 0px;
+    overflow: hidden;
+    border-width:0;
+}
+
+.progress .progress-parse{
+    opacity: 0.4;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.update-base{
+    background-color: #3c2c2c;
+    border-color: black;
+    border-radius: 0;
+    transition-property: background-color, border-color;
+    transition-duration: 0.2s;
+}
+
+.update-base:hover,
+.update-base:focus,
+.update-base:active,
+.update-base[disabled]{
+    background-color: #1c1c1c;
+    border-color: black;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.update-base[disabled]{
+    opacity: 0.5;
+}
+
+.left-btn{
+    border-radius: 3px 0 0 3px
+}
+
+.right-btn{
+    border-radius: 0 3px 3px 0
+}
