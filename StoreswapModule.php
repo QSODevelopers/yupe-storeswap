@@ -19,7 +19,7 @@ class StoreswapModule extends WebModule
 	 * Папка с csv-файлами для парсинга
 	 * @var string
 	 */
-	public $folderFiles          = '/uploads/files/prices';
+	public $folderFiles          = '/uploads/files/storeswap/csv';
 	/**
 	 * Файл товаров для парсинга
 	 * TODO Файл будет прописываться непосредственно в управляющем контроллере, 
@@ -187,11 +187,6 @@ class StoreswapModule extends WebModule
 				'label' => Yii::t('StoreswapModule.main', 'Обновить каталог из 1С'),
 				'url'   => ['/backend/storeswap/exchange/update'],
 				'icon'  => "fa fa-play",
-			],
-			[
-				'label' => Yii::t('StoreswapModule.main', 'Обновить изображения из 1С'),
-				'url'   => ['/backend/storeswap/exchange/images'],
-				'icon'  => "fa fa-picture-o",
 			],
 			[
 				'label' => Yii::t('StoreswapModule.main', 'Обновление прайс-листа'),
