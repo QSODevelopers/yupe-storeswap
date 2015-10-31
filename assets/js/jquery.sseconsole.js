@@ -1,5 +1,5 @@
 /* ========================================================================
- * SseConsole: jquery.sseconsole.js v1.0.0
+ * SseConsole: jquery.sseconsole.js v0.5.0
  * ========================================================================
  * Copyright 2015 UnnamedTeam.
  * Licensed MIT
