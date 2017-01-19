@@ -1,5 +1,5 @@
 <?php 
-    $assetsPath = Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias($this->module->assetsPath), true, -1, YII_DEBUG);
+    $assetsPath = Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias(strtolower($this->module->assetsPath)), true, -1, YII_DEBUG);
     Yii::app()->getClientScript()->registerCssFile($assetsPath. '/css/storeswap.css');
     Yii::app()->getClientScript()->registerScriptFile($assetsPath. '/js/js.additional.js');
     Yii::app()->getClientScript()->registerScriptFile($assetsPath. '/js/jquery.sseconsole.js');
