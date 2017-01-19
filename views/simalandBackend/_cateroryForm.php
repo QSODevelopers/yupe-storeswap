@@ -11,6 +11,8 @@ $form = $this->beginWidget(
     ]
 ); ?>
 
+
+<?php $this->endWidget(); ?>
 <?php $this->widget(
     'bootstrap.widgets.TbButton',
     [
@@ -29,4 +31,3 @@ $form = $this->beginWidget(
         ]
     ]
 ); ?>
-<?php $this->endWidget(); ?>
